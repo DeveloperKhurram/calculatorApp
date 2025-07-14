@@ -9,7 +9,11 @@ const Home = () => {
             Rental Tax 25-26
           </Link>
         </li>
-        {/* Add more links here for future calculators */}
+        <li>
+          <Link to="/salary-tax-25-26" className="text-blue-600 underline">
+            Salaried Tax 25-26
+          </Link>
+        </li>
       </ul>
     </div>
   );
