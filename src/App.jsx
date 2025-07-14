@@ -11,6 +11,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/rent-tax-25-26" element={<RentTax2526 />} />
         <Route path="/salary-tax-25-26" element={<SalaryTax2526 />} />
+        {/* <Route path="/rental-tax" element={<RentalTaxForm />} /> */}
+
       </Routes>
     </div>
   );

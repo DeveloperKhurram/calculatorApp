@@ -1,4 +1,5 @@
-import RentForm from "../components/RentForm";
+// import RentForm from "../components/RentForm";
+import RentalTaxForm from "../components/RentalTaxForm";
 
 const RentTax2526 = () => {
   return (
@@ -6,7 +7,7 @@ const RentTax2526 = () => {
       <h2 className="text-xl font-semibold mb-4">
         Rental Income Tax Calculator (2025-26)
       </h2>
-      <RentForm />
+      <RentalTaxForm />
     </div>
   );
 };
